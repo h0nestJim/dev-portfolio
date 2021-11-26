@@ -1,0 +1,168 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+html, body {width: auto!important; overflow-x: hidden!important; background-color: #f8f8ff;} 
+
+.banner-content{
+  height:40vh;
+  width:90vw;
+  margin-top: -10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.banner{
+    width:100vw;
+    height:40vh;
+    background-image: url('img/banneralt.jpg');
+    background-position: center;
+}
+
+.portfolio-img{
+    width:80%;
+    display:block;
+    margin:auto;
+}
+
+.control{
+    height:60vh;
+}
+
+/*masonry settings*/
+
+
+/*text styles*/
+
+.heading{
+    font-family: 'Epilogue', sans-serif;
+    font-weight:600;
+    letter-spacing: .1rem;
+}
+
+.sub-heading{
+    font-family: 'Epilogue', sans-serif;
+    font-weight:500;
+    letter-spacing: .1rem;
+}
+
+.main-text{
+    font-family: 'Epilogue', sans-serif;
+    font-weight:400;
+    letter-spacing: .1rem;
+}
+
+.text-small{
+    font-family: 'Epilogue', sans-serif;
+    font-weight:300;
+    letter-spacing: .1rem;
+}
+
+.text-color{
+    color:#401A04;
+}
+
+.text-blue{
+    color:#0460D9;
+}
+
+
+
+/*overlay image eeffect */
+.project-image{
+width:100%;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.set{
+    width:100vw;
+}
+
+.box{
+   position:relative; 
+   background-color: #0460D9;
+}
+
+.box:hover .image {
+  opacity: 0.1;
+}
+
+.box:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  border-radius:50px;
+  font-family: 'Epilogue', sans-serif;
+  font-weight:300;
+  letter-spacing: .1rem;
+}
+
+.card{
+     background-color: #f8f8ff;
+     border-width: 0;
+}
+
+.contact{
+     width:60vw;
+     display:block;
+     margin:auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.card img{
+    width:25%;
+    padding:3%;
+    display:block;
+    margin:auto;
+}
+
+.list-group-item img{
+    width:100px;
+    display:inline-block;
+}
+
+.card-head{
+    color: #0460D9;
+    font-family: 'Epilogue', sans-serif;
+    font-weight:400;
+    letter-spacing: .1rem;
+}
+
+footer{
+    background-color: #0460D9;
+    height:6vh;
+}
+
+.card-text{
+    color:#401A04;
+    font-family: 'Epilogue', sans-serif;
+    font-weight:300;
+    letter-spacing: .1rem;
+}
